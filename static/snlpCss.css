@@ -1,12 +1,14 @@
 body{
+    margin: 0;
     height: 100vh;
     background-color:#3a3a3a;
     color: white;
     font-family: sans-serif;
     background-image: url('assets/colors.png');
     background-repeat: no-repeat;
-    background-position: bottom right 20px;
+    background-position: bottom -7px right 20px;
     background-size: 25%;
+    transition: background-color 1s;
     
     display: flex;
     flex-direction: column;
@@ -90,10 +92,11 @@ form{
     text-align: center;
     font-weight: bold;
     font-size: 3rem;
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 }
 
 header{
     width: 100vw;
     margin-bottom: 1em;
-    background-color: #454545;
+    background-color: rgba(70,70,70,0.7);
 }
